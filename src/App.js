@@ -1,12 +1,13 @@
 import React from 'react';
+import ComponentClass from './components/componentClass/ComponentClass';
+
+
 
 
 function App() {
   return (
-    <div className="App">  
-        <p>
-          Hello React!
-        </p>
+    <div className="App-header">  
+        <ComponentClass />
     </div>
   );
 }
