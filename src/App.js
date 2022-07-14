@@ -1,15 +1,16 @@
-import React from 'react';
-import ComponentClass from './components/componentClass/ComponentClass';
+import React from "react";
+import Header from './components/Header';
+import Main  from  './components/Main';
 
 
-
-
-function App() {
+function App(props) {
   return (
-    <div className="App-header">  
-        <ComponentClass />
-    </div>
+    <React.Fragment>
+      <Header/>
+      <Main />
+    </React.Fragment>
   );
 }
 
 export default App;
+
