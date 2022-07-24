@@ -2,10 +2,12 @@
   display: block;
   background-color: transparent;
   border: 0;
+  color: #CC6633;
 }
 
 .svg {
-  width: 100%;
-  height: 100%;
+  height:46px;
+  width: 46px;
   color: #CC6633;
 }
+

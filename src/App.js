@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import Header from './components/Header';
-import Main  from  './components/Main';
+import Main from './components/Main';
 
 
 function App(props) {
   return (
     <React.Fragment>
-      <Header/>
+      <Header />
       <Main />
     </React.Fragment>
   );
@@ -14,3 +14,4 @@ function App(props) {
 
 export default App;
 
+// App.propTypes = {};
