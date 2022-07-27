@@ -1,13 +1,14 @@
-import React from 'react';
+
 import style from './Main.module.css';
 import Layout from '../Layout';
+import Tabs from './Tabs';
+import List from './List';
 
 export const Main = (props) => (
   <div className={style.main}>
     <Layout>
-      <div>
-        <h2>Some text</h2>
-      </div>
+      <Tabs />
+      <List />
     </Layout>
   </div>
 );

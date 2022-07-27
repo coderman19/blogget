@@ -68,7 +68,8 @@ body {
   font-family: Merriweather Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  background-color: var(--grayF5);
+  /* background-color: var(--grayF5); */
+  background: linear-gradient(#085d68b2, #d7d7da);
   color: var(--black);
 }
 
