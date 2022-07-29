@@ -10,9 +10,8 @@ const Foto = ({notphoto, title}) => {
   );
 };
 
-
 Foto.propTypes = {
-  notphoto: PropTypes.object,
+  notphoto: PropTypes.string,
   title: PropTypes.string,
 };
 

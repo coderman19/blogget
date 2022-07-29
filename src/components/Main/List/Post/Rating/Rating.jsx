@@ -15,7 +15,7 @@ const Rating = ({ups}) => {
 };
 
 Rating.propTypes = {
-  ups: PropTypes.string,
+  ups: PropTypes.number,
 };
 
 export default Rating;
