@@ -1,7 +1,7 @@
 import style from './Title.module.css';
 import PropTypes from 'prop-types';
 import {Text} from '../../../../../UI/Text/Text';
-console.log(Text);
+
 
 const Title = ({title}) => {
   console.log(style);

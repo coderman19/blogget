@@ -1,6 +1,10 @@
 .header {
   padding: 15px 0;
-  background-color: var(--greyE6);
+  background-color: rgba(127, 223, 183, 0.774);
+  background-image: url(img/bg/heaven.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .gridContainer {

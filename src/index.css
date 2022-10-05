@@ -69,7 +69,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   /* background-color: var(--grayF5); */
-  background: linear-gradient(#085d68b2, #d7d7da);
+  background: linear-gradient(#2d177efd, rgba(121, 218, 231, 0.911));
   color: var(--black);
 }
 
